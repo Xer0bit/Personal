@@ -33,7 +33,9 @@ particles-js {
 body::before {
   content: "";
   position: fixed;
-  background: #040404 url("https://source.unsplash.com/random/?black,technology") top right no-repeat;
+  background: #444444;
+  /* background-image*/
+  background-image: url(../img/bg.jpg);
   background-size: cover;
   left: 0;
   right: 0;
